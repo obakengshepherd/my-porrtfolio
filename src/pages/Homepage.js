@@ -11,8 +11,8 @@ import {
 
 import { 
   SiDjango, SiDotnet, SiExpress, 
-  SiApollographql, SiMongodb, SiPostgresql, SiPycharm, 
-  SiWebstorm, SiPostman, SiEslint, SiSwagger,
+  SiApollographql, SiMongodb, SiPostgresql, 
+  SiPostman, SiEslint, SiSwagger,
   SiJest, SiNpm, SiHeroku,  // Removed SiMicrosoftazure
   SiVercel, SiStripe, SiOpenai,
   SiTypescript, SiCypress, SiYarn
@@ -48,8 +48,6 @@ const Homepage = () => {
     Tools: [
       { icon: <FaWindows />, name: "  Windows Development Environment" },
       { icon: <FaMicrosoft />, name: "  Microsoft Development Tools" },
-      { icon: <SiPycharm />, name: "  PyCharm (Community / Professional Edition)" },
-      { icon: <SiWebstorm />, name: "  WebStorm" },
       { icon: <FaGithub />, name: "  Git / GitHub" },
       { icon: <SiPostman />, name: "  Postman / GraphQL Playground" },
       { icon: <SiMongodb />, name: "  MongoDB Compass" },
